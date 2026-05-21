@@ -1,0 +1,54 @@
+.groupPage {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.scroll {
+  flex: 1 1 auto;
+  overflow-y: auto;
+}
+
+.groupGrid {
+  display: grid;
+  grid: 600px auto / 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
+  grid-template-rows: 1fr;
+}
+
+.groupCard {
+  outline: 2px solid #000;
+  margin: 10px;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.groupCode {
+  text-align: center;
+  font-family: Montserrat-SemiBold;
+  font-size: 18px;
+  background-color: #e3e3e3;
+}
+
+.groupImg {
+  width: 100%;
+  object-fit: contain;
+}
+
+.groupTitle {
+  text-align: center;
+  font-family: Montserrat-SemiBold;
+  font-size: 18px;
+  background-color: #e3e3e3;
+}

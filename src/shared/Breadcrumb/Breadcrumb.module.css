@@ -1,0 +1,30 @@
+.breadcrumb {
+  display: flex;
+}
+
+.crumb {
+  font-family: Montserrat;
+  font-size: 14px;
+}
+
+.crumb a {
+  color: #000;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.crumb a:hover {
+  color: #ffc400;
+  transition: 0.2s;
+}
+
+.crumb:after {
+  content: "|";
+  height: 100%;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.crumb:last-child:after {
+  content: none;
+}
